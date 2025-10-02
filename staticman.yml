@@ -1,0 +1,10 @@
+# staticman.yml
+comments:
+  allowedFields: ["nombre", "chiste"]
+  branch: "main"
+  commitMessage: "Nuevo chiste añadido por {fields.nombre}"
+  filename: "chiste-{@timestamp}"
+  format: "json"
+  path: "chistes"
+  requiredFields: ["nombre", "chiste"]
+  moderation: false
